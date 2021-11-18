@@ -1,12 +1,16 @@
 import Head from 'next/head'
+import { useState } from 'react';
 import styles from './index.module.css'
 
-const Home = () => (
+const Home = () => {
+
+  return (
   <div className={styles.container}>
     <Head>
       <title>Create Next App</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
+
 
     {/* <main>
       <h1 className={styles.title}>
@@ -43,6 +47,7 @@ const Home = () => (
       </div>
     </main> */}
   </div>
-)
+  )
+}
 
 export default Home
