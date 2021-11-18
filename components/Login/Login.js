@@ -19,6 +19,7 @@ const Login = () => {
 
   return (
     <>
+      <h1> Login </h1>
       <form onSubmit = {onSubmit} autoComplete="off" noValidate> 
         <input type ="text" id="name" onChange={changeData} /> 
         <input type="text" id="image" onChange={changeData} /> 
